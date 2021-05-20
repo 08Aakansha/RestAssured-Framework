@@ -23,6 +23,13 @@ public class Get_Details {
 		DeserializeJSON responseBody = body.as(DeserializeJSON.class);
 		
 		System.out.println(responseBody);
+		//dfdfdfdfdfdfdf
+		
+		System.out.println(responseBody);
+		//dfdfdfdfdfdfdfSystem.out.println(responseBody);
+		//dfdfdfdfdfdfdf
+		System.out.println(responseBody);
+		//dfdfdfdfdfdfdf
 		
 	}
 }
