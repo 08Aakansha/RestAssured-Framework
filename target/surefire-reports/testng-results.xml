@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9171" started-at="2021-05-22T17:10:59Z" finished-at="2021-05-22T17:11:08Z">
+    <groups>
+    </groups>
+    <test name="GetTest" duration-ms="9171" started-at="2021-05-22T17:10:59Z" finished-at="2021-05-22T17:11:08Z">
+      <class name="com.GetRequests.GetUsers">
+        <test-method status="PASS" signature="initializeReport()[pri:0, instance:com.GetRequests.GetUsers@63070bab]" name="initializeReport" is-config="true" duration-ms="1431" started-at="2021-05-22T17:10:59Z" finished-at="2021-05-22T17:11:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeReport -->
+        <test-method status="PASS" signature="verifyTotalResponse()[pri:0, instance:com.GetRequests.GetUsers@63070bab]" name="verifyTotalResponse" duration-ms="5237" started-at="2021-05-22T17:11:01Z" description="Verify Total in response Json" finished-at="2021-05-22T17:11:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTotalResponse -->
+        <test-method status="PASS" signature="storeDataInList()[pri:1, instance:com.GetRequests.GetUsers@63070bab]" name="storeDataInList" duration-ms="451" started-at="2021-05-22T17:11:06Z" description="Method to extract data from JSON and store in List" finished-at="2021-05-22T17:11:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storeDataInList -->
+        <test-method status="PASS" signature="storeDataInMap()[pri:2, instance:com.GetRequests.GetUsers@63070bab]" name="storeDataInMap" duration-ms="613" started-at="2021-05-22T17:11:07Z" description="Method to extract data from JSON and store in Map" finished-at="2021-05-22T17:11:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storeDataInMap -->
+        <test-method status="PASS" signature="closeReport()[pri:0, instance:com.GetRequests.GetUsers@63070bab]" name="closeReport" is-config="true" duration-ms="1140" started-at="2021-05-22T17:11:07Z" finished-at="2021-05-22T17:11:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+      </class> <!-- com.GetRequests.GetUsers -->
+    </test> <!-- GetTest -->
+  </suite> <!-- Suite -->
+</testng-results>

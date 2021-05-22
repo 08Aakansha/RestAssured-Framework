@@ -19,6 +19,7 @@ public class Post_Details {
 		 RequestSpecification httpRequest = RestAssured.given();
 		 Response response = httpRequest.body(payload.employeeDetailsPayload()).post("/api/v1/create");
 		System.out.println(response.asString());
+		//fdfdfdfdfdf
 
 	}	
 }
