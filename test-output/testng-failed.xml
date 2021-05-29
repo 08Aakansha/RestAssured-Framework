@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.GetRequests.GetUsers">
+      <class name="com.PostRequest.Post_Details">
         <methods>
-          <include name="storeDataInMap"/>
+          <include name="getBooks"/>
         </methods>
-      </class> <!-- com.GetRequests.GetUsers -->
+      </class> <!-- com.PostRequest.Post_Details -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

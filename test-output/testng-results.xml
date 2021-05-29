@@ -1,33 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="8150" started-at="2021-05-22T22:07:15 IST" finished-at="2021-05-22T22:07:23 IST">
+  <suite name="Default suite" duration-ms="3516" started-at="2021-05-29T18:47:00 IST" finished-at="2021-05-29T18:47:04 IST">
     <groups>
     </groups>
-    <test name="GetTest" duration-ms="8150" started-at="2021-05-22T22:07:15 IST" finished-at="2021-05-22T22:07:23 IST">
-      <class name="com.GetRequests.GetUsers">
-        <test-method status="PASS" signature="initializeReport()[pri:0, instance:com.GetRequests.GetUsers@75329a49]" name="initializeReport" is-config="true" duration-ms="858" started-at="2021-05-22T22:07:15 IST" finished-at="2021-05-22T22:07:16 IST">
+    <test name="Default test" duration-ms="3516" started-at="2021-05-29T18:47:00 IST" finished-at="2021-05-29T18:47:04 IST">
+      <class name="com.PostRequest.Post_Details">
+        <test-method status="PASS" signature="getBooks()[pri:0, instance:com.PostRequest.Post_Details@670002]" name="getBooks" duration-ms="3390" started-at="2021-05-29T18:47:00 IST" finished-at="2021-05-29T18:47:04 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initializeReport -->
-        <test-method status="PASS" signature="verifyTotalResponse()[pri:0, instance:com.GetRequests.GetUsers@75329a49]" name="verifyTotalResponse" duration-ms="3727" started-at="2021-05-22T22:07:16 IST" description="Verify Total in response Json" finished-at="2021-05-22T22:07:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTotalResponse -->
-        <test-method status="PASS" signature="storeDataInList()[pri:1, instance:com.GetRequests.GetUsers@75329a49]" name="storeDataInList" duration-ms="902" started-at="2021-05-22T22:07:20 IST" description="Method to extract data from JSON and store in List" finished-at="2021-05-22T22:07:21 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- storeDataInList -->
-        <test-method status="PASS" signature="storeDataInMap()[pri:2, instance:com.GetRequests.GetUsers@75329a49]" name="storeDataInMap" duration-ms="1529" started-at="2021-05-22T22:07:21 IST" description="Method to extract data from JSON and store in Map" finished-at="2021-05-22T22:07:22 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- storeDataInMap -->
-        <test-method status="PASS" signature="closeReport()[pri:0, instance:com.GetRequests.GetUsers@75329a49]" name="closeReport" is-config="true" duration-ms="921" started-at="2021-05-22T22:07:22 IST" finished-at="2021-05-22T22:07:23 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeReport -->
-      </class> <!-- com.GetRequests.GetUsers -->
-    </test> <!-- GetTest -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- getBooks -->
+      </class> <!-- com.PostRequest.Post_Details -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
